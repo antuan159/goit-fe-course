@@ -17,71 +17,70 @@
   list-style: none;
   width: 225px;
 }
-
 .menu > li > a {
   text-decoration: none;
   font-style: "Playfair Display";
   font-size: 14px;
   color: #626262;
   text-transform: uppercase;
-  display: block;
 }
 .menu > li a:hover {
   color: #03a9f4;
 }
-a.active{
-    color: #03a9f4;
+#active {
+  color: #03a9f4;
 }
 
 /* main css */
-.right-article,  .left-article, .last-right, .last-left{
-    width: 420px;
-    float: left;
+.right-article,
+.left-article,
+.last-right,
+.last-left {
+  width: 420px;
+  float: left;
 }
-.left-article{
-    margin-right: 60px;
+.left-article {
+  margin-right: 60px;
 }
 
-.subhead{
-    margin-top: 30px;
-    margin-bottom: 25px;
-    font-style: "Playfair Display";
-    font-size: 14px;
-    color: #b4ad9e;
-    text-transform: uppercase;
+.subhead {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-style: "Playfair Display";
+  font-size: 14px;
+  color: #b4ad9e;
+  text-transform: uppercase;
 }
-.head{
-    margin-top: 25px;
-    margin-bottom: 35px;
-    font-style: "Playfair Display";
-    font-size: 30px;
-    color: #626262;
+.head {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-style: "Playfair Display";
+  font-size: 30px;
+  color: #626262;
 }
-.subtext{
-    margin-top: 35px;
-    margin-bottom: 130px;
-    font-style: "Playfair Display";
-    font-size: 14px;
-    color: #626262;
+.subtext {
+  margin-top: 35px;
+  margin-bottom: 130px;
+  font-style: "Playfair Display";
+  font-size: 14px;
+  color: #626262;
 }
-.last-sub-text{
-    margin-bottom: 0px;
+.last-sub-text {
+  margin-bottom: 0px;
 }
 
 /* button */
-.btnformat{
-    text-align: center;
+.btnformat {
+  text-align: center;
 }
-.btn{
-    width: 164px;
-    height: 60px;
-    margin-top: 55px;
-    margin-bottom: 70px;
-    background-color: #ffffff;
-    border: 1px solid #626262;
-    font-style: "Playfair Display";
-    font-size: 20px;
-    color: #626262;
+.btn {
+  width: 164px;
+  height: 60px;
+  margin-top: 55px;
+  margin-bottom: 70px;
+  background-color: #ffffff;
+  border: 1px solid #626262;
+  font-style: "Playfair Display";
+  font-size: 20px;
+  color: #626262;
 }
-
-
