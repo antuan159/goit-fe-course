@@ -3,45 +3,63 @@
   margin: 0 auto;
   background-color: #ffffff;
 }
-/* header css */
-.menu {
-  margin-top: 75px;
-  margin-bottom: 100px;
-  height: auto;
-  overflow: hidden;
-  text-align: center;
-  padding-left: 0px;
+
+/* site-navigation */
+
+.site-navigation {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0px;
+  padding-top: 75px;
+  padding-bottom: 100px;
 }
-.menu > li {
-  float: left;
+
+.site-navigation li{
+  display: inline-block;
   list-style: none;
   width: 225px;
+  text-align: center;
 }
-.menu > li > a {
+
+.site-navigation a{
   text-decoration: none;
   font-style: "Playfair Display";
   font-size: 14px;
   color: #626262;
   text-transform: uppercase;
+  display: block;
 }
-.menu > li a:hover {
+
+.site-navigation a:hover{
   color: #03a9f4;
 }
-#active {
+.site-navigation li:nth-child(1) a{
   color: #03a9f4;
 }
 
 /* main css */
-.right-article,
-.left-article,
-.last-right,
-.last-left {
-  width: 420px;
-  float: left;
+.list-article{
+  font-size: 0px;
 }
-.left-article {
+
+.list-article-content{
+  margin: 0px;
+  padding: 0px;
+  width: 420px;
+  display: inline-block;
+}
+
+.list-article-content:nth-child(odd){
   margin-right: 60px;
 }
+.list-article-content{
+  margin-bottom: 130px;
+}
+.list-article :nth-child(n+5){
+  margin-bottom: 0px;
+}
+
+/* TEXT DECORATION */
 
 .subhead {
   margin-top: 30px;
@@ -51,7 +69,8 @@
   color: #b4ad9e;
   text-transform: uppercase;
 }
-.head {
+
+.list-article-content h2 {
   margin-top: 25px;
   margin-bottom: 35px;
   font-style: "Playfair Display";
@@ -61,15 +80,11 @@
 }
 .subtext {
   margin-top: 35px;
-  margin-bottom: 130px;
+  margin-bottom: 0px;
   font-style: "Playfair Display";
   font-size: 14px;
   color: #626262;
 }
-.last-sub-text {
-  margin-bottom: 0px;
-}
-
 /* button */
 .btnformat {
   text-align: center;
@@ -77,7 +92,7 @@
 .btn {
   width: 164px;
   height: 60px;
-  margin-top: 55px;
+  margin-top: 55px; 
   margin-bottom: 70px;
   background-color: #ffffff;
   border: 1px solid #626262;
