@@ -62,9 +62,12 @@
 }
 
 /* TEXT DECORATION */
-
+.images{
+  margin: 0;
+  margin-bottom: 30px;
+}
 .subhead {
-  margin-top: 30px;
+  margin: 0;
   margin-bottom: 25px;
   font-style: "Playfair Display";
   font-size: 14px;
@@ -73,7 +76,7 @@
 }
 
 .list-article-content h2 {
-  margin-top: 25px;
+  margin: 0;
   margin-bottom: 35px;
   font-style: "Playfair Display";
   font-size: 30px;
