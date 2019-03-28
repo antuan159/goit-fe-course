@@ -81,8 +81,7 @@
   color: #626262;
 }
 .subtext {
-  margin-top: 35px;
-  margin-bottom: 0px;
+  margin: 0px;
   font-style: "Playfair Display";
   font-size: 14px;
   color: #626262;
@@ -91,6 +90,7 @@
 /* button */
 
 .btn{
+  padding: 0px;
   width: 164px;
   height: 60px;
   display: block;
