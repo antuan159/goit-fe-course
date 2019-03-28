@@ -64,8 +64,6 @@
 /* TEXT DECORATION */
 
 .subhead {
-  margin: 0px;
-  padding: 0px;
   margin-top: 30px;
   margin-bottom: 25px;
   font-style: "Playfair Display";
@@ -75,8 +73,6 @@
 }
 
 .list-article-content h2 {
-  margin: 0px;
-  padding: 0px;
   margin-top: 25px;
   margin-bottom: 35px;
   font-style: "Playfair Display";
@@ -85,18 +81,16 @@
   color: #626262;
 }
 .subtext {
-  margin: 0px;
-  padding: 0px;
   margin-top: 35px;
+  margin-bottom: 0px;
   font-style: "Playfair Display";
   font-size: 14px;
   color: #626262;
 }
+
 /* button */
 
 .btn{
-  margin: 0px;
-  padding: 0px;
   width: 164px;
   height: 60px;
   display: block;
