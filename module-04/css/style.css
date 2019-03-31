@@ -61,7 +61,6 @@ img {
   text-transform: uppercase;
 }
 
-.site-navigation :first-child :first-child,
 .site-navigation a:hover {
   color: #1abc9c;
 }
@@ -125,11 +124,11 @@ img {
 .article-news {
   float: left;
   width: 350px;
-}
-.latest-news :not(:nth-last-child(1)) {
   margin-right: 30px;
 }
-
+.article-news:nth-last-child(1){
+  margin-right: 0px;
+}
 /* name and price */
 .name,
 .price {
