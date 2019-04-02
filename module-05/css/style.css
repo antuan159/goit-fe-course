@@ -25,11 +25,22 @@ img {
   padding-top: 38px;
   padding-bottom: 32px;
 }
+.site-logo,
+.site-navigation,
+.slider-ctrl,
+.sliders-text,
+.sliders-header,
+.header-section,
+.products,
+.name,
+.price,
+.text-footer {
+  margin: 0;
+  padding: 0;
+}
 
 /* site logo*/
 .site-logo {
-  margin: 0;
-  padding: 0;
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
@@ -45,8 +56,6 @@ img {
 
 /* menu navigation  */
 .site-navigation {
-  margin: 0;
-  padding: 0;
   width: 475px;
   float: right;
   margin-top: 9px;
@@ -73,14 +82,14 @@ img {
   margin-right: 30px;
 }
 /* main section */
-.main-section{
+.main-section {
   background: #e9f0fd;
 }
 /* banner */
 .banner {
   position: relative;
   height: 600px;
-  background: url("../img/banner-image.jpg") no-repeat;
+  background: url("../img/banner-image.jpg") no-repeat center;
   margin-bottom: 94px;
 }
 /* bunner buttom */
@@ -99,13 +108,11 @@ img {
   position: absolute;
   list-style: none;
   left: 50%;
-  top:216px;
+  top: 216px;
   transform: translateX(-50%);
 }
 /* arrows-pagination */
 .slider-ctrl {
-  margin: 0;
-  padding: 0;
   position: absolute;
   display: inline-block;
   background-color: rgb(26, 188, 156);
@@ -132,8 +139,6 @@ img {
 /* text */
 .sliders-text,
 .sliders-header {
-  margin: 0;
-  padding: 0;
   font-family: "Roboto";
   color: #ffffff;
   width: 760px;
@@ -150,8 +155,6 @@ img {
 
 /* header section */
 .header-section {
-  margin: 0;
-  padding: 0;
   color: #515151;
   font-size: 48px;
   font-family: "Roboto";
@@ -174,10 +177,6 @@ img {
 }
 
 /* products */
-.products {
-  margin: 0;
-  padding: 0;
-}
 
 .products-list-item {
   list-style: none;
@@ -199,8 +198,6 @@ img {
 /* name and price */
 .name,
 .price {
-  padding: 0;
-  margin: 0;
   color: #ffffff;
   float: left;
   font-size: 18px;
@@ -298,19 +295,17 @@ img {
 .truck:hover {
   background: #1abc9c;
 }
-.footer-section{
+.footer-section {
   background-color: #323232;
   padding-top: 38px;
   padding-bottom: 32px;
 }
-.text-footer{
-  margin: 0;
-  padding: 0;
+.text-footer {
   font-size: 16px;
   font-family: "Open Sans";
   color: #fff;
   text-align: center;
 }
-.span-text{
+.span-text {
   color: #46bfa9;
 }
