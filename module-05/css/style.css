@@ -261,6 +261,10 @@ img {
   width: 166px;
   height: 50px;
   color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  padding-left: 20px;
 }
 .image-icons-heart:hover,
 .image-icons-arrows:hover,
