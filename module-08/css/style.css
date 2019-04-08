@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.head {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 149px;
+  background-image: url("../baner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 66px;
+}
+
+.logo,
+.Login,
+.Signup,
+.head-title,
+.find {
+  font-family: "Montserrat", sans-serif;
+}
+.Login,
+.Signup,
+.logo,
+.head-title,
+.head-subtitle,
+.find {
+  color: #fff;
+}
+.Login,
+.Signup,
+.logo,
+.head-title,
+.find {
+  font-weight: bold;
+}
+
+.head-subtitle {
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 18px;
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.head-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.logo {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.find,
+.Login,
+.Signup {
+  font-size: 14px;
+}
+.a-login {
+  display: flex;
+  padding: 0 84px;
+  justify-content: space-between;
+  margin-bottom: 116px;
+}
+.Login,
+.Signup {
+  display: flex;
+  align-items: center;
+  height: 36px;
+}
+.Signup {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 0 16px;
+}
+
+.find {
+  width: 282px;
+  height: 40px;
+  background: red;
+  border-radius: 30px;
+  padding: 11px 50px;
+}
+
+/* first section */
+.section-first {
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .article-item{
+  content: '';
+  width: 122px;
+  height: 122px;
+  display: inline-block;
+  text-align: center;
+  background-image:url('../img/icon/televizor.png');
+  background-repeat: no-repeat;
+} */
+.foto {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+}
+.img-foto {
+  display: inline-block;
+}
+.foto::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  box-sizing: content-box;
+  bottom: -4px;
+  right: -4px;
+  width: 40px;
+  height: 40px;
+  /* border: 4px solid #fff; */
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position-x: 12px;
+  background-position-y: 10px;
+
+}
+
+.icon-tv::after {
+  background-color: #ff4e50;
+  background-image: url("../img/icon/televizor.png");
+}
+.icon-butle::after {
+  background-color: #ffa507;
+  background-image: url("../img/icon/botle.png");
+}
+.icon-cofe::after {
+  background-color: #1cd7ad;
+  background-image: url("../img/icon/cofe.png");
+}
+.icon-telega::after {
+  background-color: #4e73db;
+  background-image: url("../img/icon/telega.png");
+}
