@@ -95,6 +95,7 @@
 .article-title {
   font-size: 18px;
 }
+
 .subtitle,
 .second-subtitle {
   font-family: "Amiri";
@@ -105,6 +106,9 @@
 .subtext {
   font-size: 14px;
 }
+.site-navigation a{
+  display: block;
+}
 .first-title,
 .second-title,
 .site-navigation a,
@@ -114,15 +118,16 @@
 }
 
 /* header-nav */
+
 .page-nav {
   min-height: 64px;
-  margin-bottom: 110px;
   align-items: flex-end;
 }
 .site-navigation {
-  width: 480px;
+  min-width: 480px;
 }
 .site-logo {
+  display: block;
   color: #fed136;
   font-size: 26px;
   font-family: "Alex Brush";
@@ -131,7 +136,9 @@
 .site-navigation a:hover {
   color: #fed136;
 }
-
+.main-content{
+  padding-top: 110px;
+}
 /* end header nav */
 
 /* first-section */
@@ -151,11 +158,9 @@
   margin-bottom: 76px;
 }
 .first-section {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
-.article-item {
-}
 .article-item::before {
   content: "";
   margin: auto;
@@ -219,6 +224,16 @@
   color: #fff;
 }
 
+@keyframes shadow {
+  from {box-shadow: 0px 0px 0px 0px rgba(68,135,194,1);}
+  50% {box-shadow: 0px 0px 16px 10px rgba(68,135,194,1);}
+  to {box-shadow: 0px 0px 0px 0px rgba(68,135,194,1);}
+}
+.btn:hover{
+  animation: shadow  2s infinite ease-in-out;
+}
+
+
 .item-area {
   width: 450px;
   height: 210px;
@@ -251,9 +266,11 @@
   color: #bbbbbb;
   
 }
+
 .val:valid{
     outline: green solid 2px;
 }
+
 .val:focus:invalid{
     outline: red solid 2px;
 }
