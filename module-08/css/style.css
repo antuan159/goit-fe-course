@@ -53,12 +53,11 @@ img {
 }
 
 /* header */
-
 .head {
   text-align: center;
-  background-image: url("../baner.jpg");
   min-height: 540px;
   padding-top: 20px;
+  background-size: cover;
   margin-bottom: 68px;
 }
 
@@ -186,10 +185,6 @@ img {
   font-size: 14px;
   color: #666666;
   font-weight: lighter;
-}
-
-.list-item:not(:last-child){
-  margin-bottom: 28px;
 }
 
 .list{
