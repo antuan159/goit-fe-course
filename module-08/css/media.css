@@ -10,6 +10,10 @@
   .list-item:not(:last-child){
     margin-bottom: 28px;
   }
+  .section-first{
+    padding-top:68px;
+    padding-bottom: 56px;
+  }
 }
 
 @media (min-width: 748px ) and (max-width: 939px ){
@@ -29,14 +33,17 @@
     min-height: 700px;
   }
   .container {
-    width: 748px;
+    width: 728px;
     padding: 0 40px;
     margin: 0 auto;
+  }
+  .section-first{
+    padding-top:70px;
+    padding-bottom: 56px;
   }
   .head {
     min-height: 700px;
     padding-top: 46px;
-    margin-bottom: 70px;
   }
 
   .logo-btn {
@@ -82,14 +89,12 @@
   .list-item:nth-child(2n-2) {
     order: 1;
   }
-  .section-first {
-    margin-bottom: 40px;
-  }
+  
 }
 
 @media (min-width: 940px) {
   .container {
-    width: 940px;
+    width: 920px;
     padding: 0;
   }
   .head {
@@ -100,6 +105,8 @@
     flex-wrap: nowrap;
   }
   .section-first {
-    margin-bottom: 72px;
+    padding-bottom: 72px;
+    padding-top:40px;
   }
+  
 }

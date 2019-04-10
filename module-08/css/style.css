@@ -13,7 +13,7 @@ img {
 }
 
 .container {
-  width: 320px;
+  width: 300px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -58,7 +58,6 @@ img {
   min-height: 540px;
   padding-top: 20px;
   background-size: cover;
-  margin-bottom: 68px;
 }
 
 .logo-btn {
@@ -112,11 +111,15 @@ img {
   display: block;
 }
 
+.Signup,
+.Login {
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 30px;
+  padding: 10px 10px;
+}
 .Signup:hover,
 .Login:hover {
-  border: 2px solid white;
-  border-radius: 30px;
-  padding: 10px 15px;
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 /* end header */
 
@@ -201,8 +204,4 @@ img {
   border-radius: 30px;
   color: #ff4e50;
   margin: 0 auto;
-}
-
-.section-first{
-  margin-bottom: 56px;
 }
