@@ -1,10 +1,57 @@
-.link{
-  display: block;
-  text-decoration: none;
-}
+@import "../css/normalize.css";
+@import "../css/common/common.css";
+@import "../css/font/font.css";
+@import "../css/container/container.css";
 
-.list{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+/* section */
+@import "../css/section/section.css";
+@import "../css/section/section__list/section__list.css";
+@import "../css/section/section__subtitle/section__subtitle.css";
+@import "../css/section/section__title/section__title.css";
+
+/* social */
+@import "../css/social/social.css";
+@import "../css/social/social__icon/social__icon.css";
+@import "../css/social/social__item/social__item.css";
+@import "../css/social/social__link/social__link.css";
+
+/* page-header */
+@import "../css/page-header/page-header.css";
+@import "../css/page-header/page-header__title/page-header__title.css";
+@import "../css/page-header/page-header__text/page-header__text.css";
+@import "../css/page-header/page-header__btn-learn/page-header__btn-learn.css";
+@import "../css/page-nav/page-nav.css";
+@import "../css/site-logo/site-logo.css";
+@import "../css/site-navigation/site-navigation.css";
+@import "../css/site-navigation/site-navigation__item/site-navigation__item.css";
+@import "../css/site-navigation/site-navigation__link/site-navigation__link.css";
+@import "../css/icon-basket/icon-basket.css";
+@import "../css/icon-search/icon-search.css";
+
+/* amazing */
+@import "../css/amazing/amazing.css";
+@import "../css/amazing/amazing__icon/amazing__icon.css";
+@import "../css/amazing/amazing__item-text/amazing__item-text.css";
+@import "../css/amazing/amazing__item-title/amazing__item-title.css";
+@import "../css/amazing/amazing__item/amazing__item.css";
+@import "../css/amazing/amazing__list/amazing__list.css";
+@import "../css/amazing/amazing__title/amazing__title.css";
+
+/* team */
+
+@import "../css/team/team.css";
+@import "../css/team/team__description/team__description.css";
+@import "../css/team/team__img/team__img.css";
+@import "../css/team/team__item-name/team__item-name.css";
+@import "../css/team/team__item-profesion/team__item-profesion.css";
+@import "../css/team/team__item/team__item.css";
+@import "../css/team/team__list/team__list.css";
+@import "../css/team/team__title/team__title.css";
+@import "../css/team/team__cont-img/team__cont-img.css";
+
+/* footer */
+@import "../css/footer/footer.css";
+@import "../css/footer/footer__text/footer__text.css";
+@import "../css/footer/footer__text-span/footer__text-span.css";
+@import "../css/footer/footer__text-email/footer__text-email.css";
+@import "../css/footer/footer__btn-subscribe/footer__btn-subscribe.css";

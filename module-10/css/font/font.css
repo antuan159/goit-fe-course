@@ -1,0 +1,74 @@
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.site-logo,
+.site-navigation__link,
+.page-header__title,
+.page-header__btn-learn,
+.team__title,
+.amazing__title,
+.amazing__item-title,
+.team__item-name {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section__subtitle,
+.page-header__text {
+  font-family: "Kaushan Script", cursive;
+}
+
+.amazing__item-text,
+.team__description,
+.team__item-profesion {
+  font-family: "Roboto";
+}
+
+.site-logo,
+.page-header__title,
+.page-header__btn-learn,
+.team__title,
+.amazing__title {
+  font-weight: bold;
+}
+
+.site-navigation__link,
+.page-header__title,
+.page-header__btn-learn,
+.team__title,
+.amazing__title,
+.amazing__item-title,
+.team__item-name {
+  text-transform: uppercase;
+}
+
+.page-header__title {
+  font-size: 150px;
+}
+
+.page-header__text {
+  font-size: 72px;
+}
+
+.site-logo,
+.team__title,
+.amazing__title {
+  font-size: 30px;
+}
+
+.section__subtitle {
+  font-size: 24px;
+}
+
+.amazing__item-text,
+.team__description,
+.team__item-profesion {
+  font-size: 15px;
+}
+
+.site-navigation__link,
+.page-header__btn-learn,
+.amazing__item-title,
+.team__item-name,
+.footer {
+  font-size: 14px;
+}
