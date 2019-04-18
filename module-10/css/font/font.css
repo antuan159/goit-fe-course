@@ -5,8 +5,7 @@ font-family: 'Montserrat', sans-serif; */
 .site-navigation__link,
 .page-header__title,
 .page-header__btn-learn,
-.team__title,
-.amazing__title,
+.section__title,
 .amazing__item-title,
 .team__item-name {
   font-family: "Montserrat", sans-serif;
@@ -26,16 +25,14 @@ font-family: 'Montserrat', sans-serif; */
 .site-logo,
 .page-header__title,
 .page-header__btn-learn,
-.team__title,
-.amazing__title {
+.section__title{
   font-weight: bold;
 }
 
 .site-navigation__link,
 .page-header__title,
 .page-header__btn-learn,
-.team__title,
-.amazing__title,
+.section__title,
 .amazing__item-title,
 .team__item-name {
   text-transform: uppercase;
@@ -50,8 +47,7 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .site-logo,
-.team__title,
-.amazing__title {
+.section__title {
   font-size: 30px;
 }
 
