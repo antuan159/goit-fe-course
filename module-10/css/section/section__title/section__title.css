@@ -3,3 +3,12 @@
     color:#333333;
     margin-bottom: 82px;
 }
+.section__title::after {
+  content: "";
+  display: flex;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 0 auto;
+  margin-top: 38px;
+}
