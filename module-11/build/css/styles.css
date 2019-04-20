@@ -473,7 +473,7 @@ template {
 .page-header {
   padding-top: 28px;
   text-align: center;
-  background: linear-gradient(90deg, rgba(223, 205, 142, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../../images/fon-min.jpg");
+  background: linear-gradient(90deg, rgba(223, 205, 142, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../src/images/fon-min.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -800,7 +800,7 @@ template {
   .page-header {
     padding-top: 28px;
     text-align: center;
-    background: linear-gradient(90deg, rgba(223, 205, 142, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../../images/fon@2x-min.jpg");
+    background: linear-gradient(90deg, rgba(223, 205, 142, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../src/images/fon@2x-min.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
