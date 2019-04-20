@@ -1,0 +1,13 @@
+.social__item {
+  background: $color-hover;
+  border-right: 1px solid rgba(243, 129, 129, 0.502);
+  transition: background-color 0.2s linear;
+  
+  &:hover {
+    background: $color-span;
+
+    .social__icon {
+      fill: $color-white;
+    }
+  }
+}

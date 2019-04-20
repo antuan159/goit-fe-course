@@ -1,0 +1,61 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+@import './variables/variables.scss';
+
+@import "../sass/common/common.scss";
+@import "../sass/container/container.scss";
+
+/* sectiona*/
+@import "../sass/section/section.scss";
+@import "../sass/section/section__list/section__list.scss";
+@import "../sass/section/section__subtitle/section__subtitle.scss";
+@import "../sass/section/section__title/section__title.scss";
+
+/* social */
+@import "../sass/social/social.scss";
+@import "../sass/social/social__icon/social__icon.scss";
+@import "../sass/social/social__item/social__item.scss";
+@import "../sass/social/social__link/social__link.scss";
+
+/* page-headea */
+@import "../sass/page-header/page-header.scss";
+@import "../sass/page-header/page-header__title/page-header__title.scss";
+@import "../sass/page-header/page-header__text/page-header__text.scss";
+@import "../sass/page-header/page-header__btn-learn/page-header__btn-learn.scss";
+@import "../sass/page-nav/page-nav.scss";
+@import "../sass/site-logo/site-logo.scss";
+@import "../sass/site-navigation/site-navigation.scss";
+@import "../sass/site-navigation/site-navigation__item/site-navigation__item.scss";
+@import "../sass/site-navigation/site-navigation__link/site-navigation__link.scss";
+@import "../sass/icon-basket/icon-basket.scss";
+@import "../sass/icon-search/icon-search.scss";
+
+/* amazinga*/
+@import "../sass/amazing/amazing.scss";
+@import "../sass/amazing/amazing__icon/amazing__icon.scss";
+@import "../sass/amazing/amazing__item-text/amazing__item-text.scss";
+@import "../sass/amazing/amazing__item-title/amazing__item-title.scss";
+@import "../sass/amazing/amazing__item/amazing__item.scss";
+@import "../sass/amazing/amazing__list/amazing__list.scss";
+@import "../sass/amazing/amazing__title/amazing__title.scss";
+
+/* team */
+
+@import "../sass/team/team.scss";
+@import "../sass/team/team__description/team__description.scss";
+@import "../sass/team/team__img/team__img.scss";
+@import "../sass/team/team__item-name/team__item-name.scss";
+@import "../sass/team/team__item-profesion/team__item-profesion.scss";
+@import "../sass/team/team__item/team__item.scss";
+@import "../sass/team/team__list/team__list.scss";
+@import "../sass/team/team__title/team__title.scss";
+@import "../sass/team/team__cont-img/team__cont-img.scss";
+
+/* footer */
+@import "../sass/footer/footer.scss";
+@import "../sass/footer/footer__text/footer__text.scss";
+@import "../sass/footer/footer__text-span/footer__text-span.scss";
+@import "../sass/footer/footer__text-email/footer__text-email.scss";
+@import "../sass/footer/footer__btn-subscribe/footer__btn-subscribe.scss";

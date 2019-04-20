@@ -1,0 +1,19 @@
+.section__title {
+  text-align: center;
+  color: $color-amazing-item;
+  margin-bottom: 82px;
+  font-family: $font-monserat;
+  font-weight: $text-bold;
+  text-transform: $text-transfotrm;
+  font-size: $fz-logo-title;
+
+  &::after {
+    content: '';
+    display: flex;
+    width: 60px;
+    height: 3px;
+    background-color: $color-span;
+    margin: 0 auto;
+    margin-top: 38px;
+  }
+}

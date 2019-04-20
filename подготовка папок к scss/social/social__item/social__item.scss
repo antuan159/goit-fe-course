@@ -1,0 +1,14 @@
+.social__item{
+    background: #fce38a;
+    border-right: 1px solid rgb(243, 129, 129, 0.502);
+    transition: background-color 0.2s linear;
+}
+ 
+
+.social__item:hover {
+    background: #f38181;
+   
+}
+.social__item:hover .social__icon{
+    fill: #fff;
+}

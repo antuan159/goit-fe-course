@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 60px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: $color-amazing-item;
+  border-top: 1px solid #e5e5e5;
+  font-size: $fz-min;
+}

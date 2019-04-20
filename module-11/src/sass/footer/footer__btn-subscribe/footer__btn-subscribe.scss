@@ -1,0 +1,14 @@
+.footer__btn-subscribe {
+  height: 40px;
+  border: 0px;
+  width: 150px;
+  background-color: $color-icon;
+  color: $color-white;
+  font-family: $font-monserat;
+  text-transform: $text-transfotrm;
+  font-weight: $text-transfotrm;
+  
+  &:hover{
+    box-shadow: 0px 0px 20px 10px rgba(149,225,211,1);
+  }
+}
