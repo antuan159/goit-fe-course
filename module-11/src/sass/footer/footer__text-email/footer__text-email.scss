@@ -2,15 +2,13 @@
   font-style: italic;
   padding-left: 12px;
   width: 228px;
-  border: 1px solid $color-border-text ;
+  border: 1px solid $color-border-text;
   border-right: none;
   color: $foter-color;
   height: 40px;
 
   &::placeholder {
-    font-family: $font-roboto;
-    font-size: 15px;
-    font-style: italic;
-    color: $foter-color;
+    @include font-mixin($font-roboto, $fz-text);
+    @include color-fw($foter-color, $text-italic);
   }
 }

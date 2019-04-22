@@ -1,11 +1,8 @@
 .section__title {
   text-align: center;
-  color: $color-amazing-item;
   margin-bottom: 82px;
-  font-family: $font-monserat;
-  font-weight: $text-bold;
-  text-transform: $text-transfotrm;
-  font-size: $fz-logo-title;
+  @include font-mixin($font-monserat, $fz-logo-title, $text-transfotrm);
+  @include color-fw($color-amazing-item, $text-bold);
 
   &::after {
     content: '';

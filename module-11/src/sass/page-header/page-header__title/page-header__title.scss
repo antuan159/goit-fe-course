@@ -1,11 +1,8 @@
 .page-header__title {
-  color: $color-white;
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 120px;
-  font-family: $font-monserat;
-  font-weight: $text-bold;
-  text-transform: $text-transfotrm;
-  font-size: $fz-title;
+  @include color-fw($color-white,$text-bold);
+  @include font-mixin($font-monserat, $fz-title, $text-transfotrm);
 }

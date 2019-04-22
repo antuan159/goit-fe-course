@@ -1,9 +1,7 @@
 .site-navigation__link {
-  color: $color-white;
   position: relative;
-  font-family: $font-monserat;
-  text-transform: $text-transfotrm;
-  font-size: $fz-min;
+  @include font-mixin($font-monserat, $fz-min, $text-transfotrm);
+  @include color-fw($color-white);
 
   &:hover{
     color: $color-hover;

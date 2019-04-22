@@ -1,6 +1,4 @@
 .site-logo {
-  color: $color-white;
-  font-family: $font-monserat;
-  font-weight: $text-bold;
-  font-size: $fz-logo-title;
+  @include font-mixin($font-monserat, $fz-logo-title);
+  @include color-fw($color-white, $text-bold);
 }

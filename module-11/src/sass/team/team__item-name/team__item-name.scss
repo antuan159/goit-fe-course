@@ -1,9 +1,6 @@
 .team__item-name {
-  text-align: center;
-  font-family: $font-monserat;
-  font-size: $fz-min;
-  color: $color-amazing-item;
-  text-transform: $text-transfotrm;
+  text-align: center;  
+  @include font-mixin($font-monserat, $fz-min, $text-transfotrm);
+  @include color-fw($color-amazing-item, $text-bold);
   margin-bottom: 10px;
-  font-weight: bold;
 }

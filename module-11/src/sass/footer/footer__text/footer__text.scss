@@ -2,7 +2,6 @@
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  color: $color-amazing-item;
-  font-family: $font-monserat;
-  font-size: $fz-min;
+  @include color-fw($color-amazing-item);
+  @include font-mixin($font-monserat, $fz-min);
 }

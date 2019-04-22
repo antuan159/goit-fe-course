@@ -375,6 +375,26 @@ template {
   display: none;
 }
 
+.page-header__btn-learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.amazing__list,
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -404,20 +424,22 @@ template {
 
 .section__subtitle {
   text-align: center;
-  color: #333333;
   margin-bottom: 16px;
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
+  text-transform: none;
+  color: #333333;
+  font-weight: normal;
 }
 
 .section__title {
   text-align: center;
-  color: #333333;
   margin-bottom: 82px;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
   font-size: 30px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: bold;
 }
 
 .section__title::after {
@@ -481,37 +503,36 @@ template {
 }
 
 .page-header__title {
-  color: #fff;
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 120px;
-  font-family: "Montserrat", sans-serif;
+  color: #fff;
   font-weight: bold;
-  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
   font-size: 150px;
+  text-transform: uppercase;
 }
 
 .page-header__text {
-  color: #fff;
   margin-bottom: 30px;
   font-family: "Kaushan Script", cursive;
   font-size: 72px;
+  text-transform: none;
+  color: #fff;
+  font-weight: normal;
 }
 
 .page-header__btn-learn {
+  text-decoration: none;
   width: 160px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   border: 3px solid #fff;
-  color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
   font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
 }
 
 .page-header__btn-learn:hover {
@@ -529,24 +550,20 @@ template {
 }
 
 .site-logo {
-  color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
   font-size: 30px;
-}
-
-.site-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-transform: none;
+  color: #fff;
+  font-weight: bold;
 }
 
 .site-navigation__link {
-  color: #fff;
   position: relative;
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
   font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
 }
 
 .site-navigation__link:hover {
@@ -609,14 +626,17 @@ template {
 .amazing__item-text {
   padding-left: 60px;
   color: #999999;
+  font-weight: normal;
   font-family: "Roboto";
   font-size: 15px;
+  text-transform: none;
 }
 
 .amazing__item-title {
   padding-left: 60px;
   margin-bottom: 12px;
   color: #333333;
+  font-weight: normal;
   text-transform: uppercase;
 }
 
@@ -629,16 +649,10 @@ template {
   margin-bottom: 96px;
 }
 
-.amazing__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .amazing__title {
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 /* team */
@@ -650,32 +664,35 @@ template {
 
 .team__description {
   text-align: center;
-  color: #999999;
   max-width: 960px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 90px;
   font-family: "Roboto";
   font-size: 15px;
+  text-transform: none;
+  color: #999999;
+  font-weight: normal;
 }
 
 .team__item-name {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #333333;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  color: #333333;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .team__item-profesion {
   text-align: center;
   font-family: "Roboto";
   font-size: 15px;
+  text-transform: none;
   color: #999999;
+  font-weight: normal;
   font-style: italic;
-  font-size: 15px;
 }
 
 .team__item {
@@ -701,12 +718,6 @@ template {
   height: 100%;
   background-image: linear-gradient(0deg, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
   opacity: 1;
-}
-
-.team__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .team__cont-img {
@@ -735,8 +746,10 @@ template {
 .footer__text {
   flex-grow: 1;
   color: #333333;
+  font-weight: normal;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  text-transform: none;
 }
 
 .footer__text-span {
@@ -756,40 +769,45 @@ template {
 .footer__text-email::-webkit-input-placeholder {
   font-family: "Roboto";
   font-size: 15px;
-  font-style: italic;
+  text-transform: none;
   color: #cccccc;
+  font-weight: 100;
 }
 
 .footer__text-email:-ms-input-placeholder {
   font-family: "Roboto";
   font-size: 15px;
-  font-style: italic;
+  text-transform: none;
   color: #cccccc;
+  font-weight: 100;
 }
 
 .footer__text-email::-ms-input-placeholder {
   font-family: "Roboto";
   font-size: 15px;
-  font-style: italic;
+  text-transform: none;
   color: #cccccc;
+  font-weight: 100;
 }
 
 .footer__text-email::placeholder {
   font-family: "Roboto";
   font-size: 15px;
-  font-style: italic;
+  text-transform: none;
   color: #cccccc;
+  font-weight: 100;
 }
 
 .footer__btn-subscribe {
   height: 40px;
   border: 0px;
   width: 150px;
-  background-color: #95e1d3;
-  color: #fff;
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   text-transform: uppercase;
-  font-weight: uppercase;
+  color: #fff;
+  font-weight: bold;
+  background-color: #95e1d3;
 }
 
 .footer__btn-subscribe:hover {

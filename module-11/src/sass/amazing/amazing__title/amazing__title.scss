@@ -1,5 +1,3 @@
 .amazing__title {
-  font-family: $font-monserat;
-  text-transform: $text-transfotrm;
-  font-size: $fz-min;
+  @include font-mixin($font-monserat, $fz-min, $text-transfotrm);
 }

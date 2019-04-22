@@ -1,6 +1,5 @@
 .amazing__item-text {
   padding-left: 60px;
-  color: $color-amazing-text;
-  font-family: $font-roboto;
-  font-size: $fz-text;
+  @include color-fw($color-amazing-text);
+  @include font-mixin($font-roboto, $fz-text);
 }

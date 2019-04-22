@@ -1,7 +1,6 @@
 .section__subtitle {
   text-align: center;
-  color: $color-amazing-item;
   margin-bottom: 16px;
-  font-family: $font-kaushan;
-  font-size: $fz-subtitle;
+  @include font-mixin($font-kaushan, $fz-subtitle);
+  @include color-fw($color-amazing-item);
 }

@@ -1,10 +1,9 @@
 .team__description {
   text-align: center;
-  color: $color-amazing-text;
   max-width: 960px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 90px;
-  font-family: $font-roboto;
-  font-size: $fz-text;
+  @include font-mixin($font-roboto, $fz-text);
+  @include color-fw($color-amazing-text);
 }

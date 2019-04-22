@@ -3,6 +3,8 @@
 */
 @import './normalize';
 @import './variables/variables.scss';
+@import './plaseholder/plaseholder.scss';
+@import "./mixin/mixin.scss";
 
 @import "../sass/common/common.scss";
 @import "../sass/container/container.scss";

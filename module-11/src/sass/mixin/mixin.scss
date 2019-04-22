@@ -1,0 +1,11 @@
+// font mixin
+@mixin font-mixin($font-famyli, $font-size, $txt-transform:none) {
+  font-family: $font-famyli;
+  font-size: $font-size;
+  text-transform: $txt-transform;
+}
+// color and  font-weight
+@mixin color-fw($col, $font-weight:normal) {
+  color: $col;
+  font-weight: $font-weight;
+}

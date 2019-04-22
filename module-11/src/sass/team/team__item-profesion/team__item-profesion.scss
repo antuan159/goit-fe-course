@@ -1,8 +1,6 @@
 .team__item-profesion {
-  text-align: center;
-  font-family: $font-roboto;
-  font-size: 15px;
-  color: $color-amazing-text;
+  text-align: center;  
+  @include font-mixin($font-roboto, $fz-text);
+  @include color-fw($color-amazing-text);
   font-style: italic;
-  font-size: $fz-text;
 }

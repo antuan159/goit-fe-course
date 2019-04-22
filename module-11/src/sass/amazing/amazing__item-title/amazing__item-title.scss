@@ -1,6 +1,6 @@
 .amazing__item-title {
   padding-left: 60px;
   margin-bottom: 12px;
-  color: $color-amazing-item;
+  @include color-fw($color-amazing-item);
   text-transform: $text-transfotrm;
 }
